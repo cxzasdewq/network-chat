@@ -1,0 +1,28 @@
+
+Server is running...
+0:52:9 | Port: 51578 | GET / HTTP/1.1 has entered the chat! Clients on server: 1
+0:52:9 | Host: localhost:8088
+0:52:9 | Sec-Fetch-Site: none
+0:52:9 | Connection: keep-alive
+0:52:9 | Upgrade-Insecure-Requests: 1
+0:52:9 | Sec-Fetch-Mode: navigate
+0:52:9 | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+0:52:9 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15
+0:52:9 | Accept-Language: ru
+0:52:9 | Sec-Fetch-Dest: document
+0:52:9 | Accept-Encoding: gzip, deflate
+0:52:9 | 
+
+Server is running...
+0:55:12 | Port: 51597 | GET / HTTP/1.1 has entered the chat! Clients on server: 1
+0:55:12 | Host: localhost:8888
+0:55:12 | Sec-Fetch-Site: none
+0:55:12 | Connection: keep-alive
+0:55:12 | Upgrade-Insecure-Requests: 1
+0:55:12 | Sec-Fetch-Mode: navigate
+0:55:12 | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+0:55:12 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15
+0:55:12 | Accept-Language: ru
+0:55:12 | Sec-Fetch-Dest: document
+0:55:12 | Accept-Encoding: gzip, deflate
+0:55:12 | 
