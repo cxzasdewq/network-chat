@@ -40,18 +40,18 @@ public class Server extends SettingsConfigurator implements ClientHandlerObserve
     @Override
     public void onConnection(ClientHandler clientHandler) {
         CLIENT_HANDLERS.add(clientHandler);
-        System.out.printf("%s | %s has entered the chat! Clients on server: %d\n",
+        System.out.printf("%s | %s joined! Users online: %d.\n",
                 getTime(), clientHandler, CLIENT_HANDLERS.size());
-        LOGGER.log(String.format("%s | %s has entered the chat! Clients on server: %d",
+        LOGGER.log(String.format("%s | %s joined! Users online: %d.",
                 getTime(), clientHandler, CLIENT_HANDLERS.size()));
     }
 
     @Override
     public void onDisconnection(ClientHandler clientHandler) {
         CLIENT_HANDLERS.remove(clientHandler);
-        System.out.printf("%s | %s has left the chat! Clients on server: %d\n",
+        System.out.printf("%s | %s left! Users online: %d.\n",
                 getTime(), clientHandler, CLIENT_HANDLERS.size());
-        LOGGER.log(String.format("%s | %s has left the chat! Clients on server: %d",
+        LOGGER.log(String.format("%s | %s left! Users online: %d.",
                 getTime(), clientHandler, CLIENT_HANDLERS.size()));
     }
 }

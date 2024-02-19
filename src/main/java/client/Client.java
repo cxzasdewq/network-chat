@@ -33,9 +33,9 @@ public class Client extends SettingsHandler implements Disconnection {
     }
 
     private void setUsername() {
-        System.out.print("Enter your username, please: ");
+        System.out.print("Enter username: ");
         this.username = SCANNER.nextLine();
-        System.out.printf("Welcome to the chat, %s!\n", username);
+        System.out.printf("%s joined!\n", username);
         sendMessage(username);
     }
 

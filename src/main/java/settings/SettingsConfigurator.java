@@ -8,7 +8,7 @@ public abstract class SettingsConfigurator extends SettingsHandler {
     private static final String HOST = "localhost";
 
     public void configureSettings(Scanner scanner) {
-        System.out.print("Enter port number: ");
+        System.out.print("Enter port: ");
         writePort(Integer.parseInt(scanner.nextLine()));
         writeHost();
     }

@@ -22,7 +22,7 @@ public class ClientHandler implements Runnable, Disconnection {
             this.reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             this.writer = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
             clientUsername = setClientUsername();
-            distribute("SERVER: " + clientUsername + " has entered the chat!");
+            distribute("Server: " + clientUsername + " joined!");
             observer.onConnection(this);
         } catch (IOException exception) {
             disconnect(socket, reader, writer);
@@ -83,7 +83,7 @@ public class ClientHandler implements Runnable, Disconnection {
 
     private void disconnectClientHandler() {
         observer.onDisconnection(this);
-        distribute("SERVER: " + clientUsername + " has left the chat!");
+        distribute("Server: " + clientUsername + " left!");
         disconnect(socket, reader, writer);
     }
 }
